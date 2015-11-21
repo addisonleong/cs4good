@@ -1,1 +1,33 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,700,900);
+
+.header {
+	width: 100%;
+	height: 500px;
+	background: #000000;
+}
+
+.jumbotron {
+	color: #ffffff !important;
+	background: transparent !important;
+	position: absolute;
+	top: 250px;
+	transform: translate(0, -50%);
+	-moz-transform: translate(0, -50%);
+	-webkit-transform: translate(0, -50%);
+	width: 100%;
+	text-align: center;
+	font-family: "Lato", sans-serif;
+}
+
+.menubarwhite {
+	padding-top: 20px;
+}
+
+.menubarwhite a {
+	color: #ffffff !important;
+	padding-bottom: 5px !important;
+}
+
+.menubarwhite a:hover:not(.navbar-brand) {
+	border-bottom: 1px solid #ffffff;
+}
