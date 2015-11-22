@@ -6,7 +6,7 @@
 	background: #000000;
 }
 
-.jumbotron {
+.headertext {
 	color: #ffffff !important;
 	background: transparent !important;
 	position: absolute;
@@ -19,15 +19,53 @@
 	font-family: "Lato", sans-serif;
 }
 
+.navbar-brand {
+	padding-top: 10px !important;
+}
+
 .menubarwhite {
 	padding-top: 20px;
+	padding-bottom: 20px;
+	background: transparent;
+	border: none !important;
 }
 
 .menubarwhite a {
-	color: #ffffff !important;
+	/*color: #ffffff !important;*/
 	padding-bottom: 5px !important;
 }
 
 .menubarwhite a:hover:not(.navbar-brand) {
 	border-bottom: 1px solid #ffffff;
+}
+
+.frontdescription {
+	width: 100%;
+	text-align: center;
+	margin: auto;
+	margin-top: 50px;
+	font-size: 50px;
+	font-family: "Lato", sans-serif;
+}
+
+.programs {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.programs h2 {
+	padding-bottom: 20px;
+}
+
+.programs .col-md-4 {
+	margin-bottom: 30px;
+}
+
+.programbox {
+	width: 100%;
+	height: 25vw;
+	background: #aaaaaa;
+	margin-left: auto;
+	margin-right: auto;
 }

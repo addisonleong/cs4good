@@ -5,7 +5,9 @@
 		<link rel="stylesheet" href="bootstrap-3.3.5-dist/css/bootstrap.css" type="text/css">
 		<title>CS+Social Good</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="js/jquery-1.11.3.min.js"></script>
 		<script src="bootstrap-3.3.5-dist/js/bootstrap.js"></script>
+		<script src="js/function.js"></script>
 	</head>
 	<body>
 		<div class="container-fluid">
@@ -21,16 +23,16 @@
 						           <span class="icon-bar"></span>
 						           <span class="icon-bar"></span>
 						       </button>
-						       <a class="navbar-brand" href="#"><img src="images/logowhite.png" width="75"></a>
+						       <a class="navbar-brand" href="#"><img id="logowhite" src="images/logowhite.png" width="75"></a>
 						   </div>
 						   <!-- Collect the nav links, forms, and other content for toggling -->
 						   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						       <ul class="nav navbar-nav navbar-right">
 						           <li>
-						               <a href="#">ABOUT US</a>
+						               <a href="#" class="menubarwhitelink">ABOUT US</a>
 						           </li>
 						           <li>
-						               <a href="#">GET INVOLVED</a>
+						               <a href="#" class="menubarwhitelink">GET INVOLVED</a>
 						           </li>
 						       </ul>
 						   </div>
@@ -38,11 +40,50 @@
 						</div>
 				       <!-- /.container -->
 					</nav>
-					<div class="jumbotron">
+					<div class="jumbotron headertext">
 						<h1>CS+SOCIAL GOOD</h1>
 					</div>
 				</div>
 			</div>
+			<h1 class="row jumbotron frontdescription">
+				This is a short description of who we are
+			</h1>
+			<div class="row">
+				<div class="programs">
+					<h2>PROGRAMS</h2>
+					<div class="row program">
+						<div class="col-md-4">
+							<div class="programbox"></div>
+						</div>
+						<div class="col-md-4">
+							<div class="programbox"></div>
+						</div>
+						<div class="col-md-4">
+							<div class="programbox"></div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4">
+							<div class="programbox"></div>
+						</div>
+						<div class="col-md-4">
+							<div class="programbox"></div>
+						</div>
+						<div class="col-md-4">
+							<div class="programbox"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="programs">
+					<h2>CALENDAR</h2>
+				</div>
+			</div>
 		</div>
+		<script>
+			$(".menubarwhite a").css({"color":"#ffffff"});
+			$(".menubarwhite").css({"background-color":"transparent"});
+		</script>
 	</body>
 </html>
