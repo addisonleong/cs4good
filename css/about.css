@@ -1,0 +1,106 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700,900);
+
+
+.separation-bar{
+	position: absolute;
+	margin-top: 10vh;
+	width:100%;
+	height:50px;
+	padding: 15px 15px;
+	background-color: white;
+	-moz-box-shadow:    0px 0.5px 11px -0.5px #ccc;
+  	-webkit-box-shadow: 0px 0.5px 11px -0.5px #ccc;
+  	-o-box-shadow:		0px 0.5px 11px -0.5px #ccc;
+  	box-shadow:         0px 0.5px 11px -0.5px #ccc;
+} 
+
+.bottom{
+	text-align: center;
+}
+
+.bottom object{
+	width:20px;
+	margin-left: 15px;
+	margin-right:15px;
+}
+
+.row{
+	width:96vw;
+	margin-left: 2vw;
+}
+
+.col-sm-4{
+	margin-top: 15px;
+}
+
+.member{
+	width:41vw;
+	height:28vw;
+	background: white;
+}
+.card {
+ 		width: 100%;
+  		height: 100%;
+		-webkit-transform-style: preserve-3d;
+  		-webkit-transition: 0.5s;
+  		background: black;
+
+ }
+
+ .card .front {
+  		position: absolute;
+  		z-index: 1;
+    	background: black;
+    	color: white;
+}
+
+
+
+/*Mobile*/
+
+@media screen and (min-width: 768px){
+	.member{
+		-webkit-perspective: 800;
+		position: relative;
+		width:26vw;
+		height:18vw;
+		margin:auto;
+		cursor: pointer;
+	}
+
+	.card.flipped {
+  		-webkit-transform: rotatex(-180deg);
+	}
+
+	.card .face {
+  		width: 100%;
+  		height: 100%;
+  		position: absolute;
+  		-webkit-backface-visibility: hidden ;
+  		z-index: 2;
+    	font-family: Georgia;
+    	font-size: 3em;
+    	text-align: center;
+    	line-height: 200px;
+	}
+
+	 .card .back {
+  		-webkit-transform: rotatex(-180deg);
+    	background: white;
+    	color: black;
+    	cursor: pointer;
+	}
+
+}
+
+.members-wrapper{
+	margin-top: 12vw;
+}
+
+.members-wrapper p{
+	font-family: "Lato", sans-serif;
+	margin-left: 4vw;
+	margin-right: 4vw;
+	font-size: 1.7vw;
+	text-align: justify;
+}

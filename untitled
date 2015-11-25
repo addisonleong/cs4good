@@ -3,7 +3,7 @@
 	<head>
 		<link rel="stylesheet" href="css/stylesheet.css" type="text/css">
 		<link rel="stylesheet" href="bootstrap-3.3.5-dist/css/bootstrap.css" type="text/css">
-		<title>Get Involved</title>
+		<title>About Us</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<script src="js/jquery-1.11.3.min.js"></script>
 		<script src="bootstrap-3.3.5-dist/js/bootstrap.js"></script>
@@ -37,6 +37,21 @@
 			</div>
 	       <!-- /.container -->
 		</nav>
+
+		<!--Intro - Durian-->
+		<div>
+		</div>
+
+		<!--Board Members - Ackee-->
+
+		<!--New Team Members - Rambutan-->
+
+
+		<div class = "social">
+		<img src="images/twitter.svg">
+		<img src="images/medium.svg">
+		<img src="images/facebook.svg">
+		</div>
 		<script src="js/function.js"></script>
 	</body>
 </html>
