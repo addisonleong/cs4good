@@ -19,6 +19,11 @@
 	width: 100%;
 	text-align: center;
 	font-family: "Lato", sans-serif;
+	letter-spacing: 0.8em;
+}
+
+.headertext h1 {
+	font-weight: 400;
 }
 
 .navbar-brand {
@@ -51,11 +56,12 @@
 }
 
 .frontdescription {
-	width: 100%;
+	width: 80vw;
 	text-align: center;
-	margin: auto;
-	margin-top: 50px;
-	font-size: 50px;
+	margin: auto !important;
+	margin-top: 70px !important;
+	margin-bottom: 60px !important;
+	font-size: 40px;
 	font-family: "Lato", sans-serif;
 }
 
@@ -63,6 +69,7 @@
 	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: 100px;
 }
 
 .programs h2 {
@@ -86,4 +93,8 @@
 	height: 1000px;
 	margin-top: 100px;
 	background: #aaaaaa;
+}
+
+.calendar {
+	border: none;
 }
