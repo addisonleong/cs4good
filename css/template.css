@@ -98,3 +98,50 @@
 .calendar {
 	border: none;
 }
+
+.bottomSocial {
+	margin-top: 70px;
+	margin-bottom: 70px;
+	text-align: center;
+}
+
+#facebook {
+	width: 50px;
+	height: 50px;
+	background: url(../images/facebookCircle.png);
+	background-size: cover;
+	display: inline-block;
+	margin: 5px;
+}
+#twitter {
+	width: 50px;
+	height: 50px;
+	background: url(../images/twitterCircle.png);
+	background-size: cover;
+	display: inline-block;
+	margin: 5px;
+}
+#medium {
+	width: 50px;
+	height: 50px;
+	background: url(../images/mediumCircle.png);
+	background-size: cover;
+	display: inline-block;
+	margin: 5px;
+}
+
+#facebook:hover {
+	cursor: pointer;
+	background: url(../images/facebookCircleselected.png);
+	background-size: cover;
+}
+#twitter:hover {
+	cursor: pointer;
+	background: url(../images/twitterCircleselected.png);
+	background-size: cover;
+}
+#medium:hover {
+	cursor: pointer;
+	background: url(../images/mediumCircleselected.png);
+	background-size: cover;
+}
